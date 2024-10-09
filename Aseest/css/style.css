@@ -1,0 +1,78 @@
+
+:root{
+    --blue:#3fbbbf;
+}
+.bg-c
+{
+    background-color: var(--blue) !important;
+
+}
+.nav-link.active,
+h6.active
+{
+    color: var(--blue)  !important;
+}
+.carousel-indicators button.active
+{
+    background-color: var(--blue);
+}
+.width1
+{
+    width: 150px;
+}
+.border-color
+{
+    border-top: 4px solid var(--blue);
+}
+.b-n
+{
+    border: 2px dotted var(--blue);
+}
+.full-hight
+{
+    height: 78vh;
+}
+.icon-circile
+{
+    border-radius: 50%;
+}
+.bg
+{
+    background-color:#f0fefe ;
+}
+.form
+{
+    border-radius: 0;
+}
+.form2
+{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.form3
+{
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.form4
+{
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius: 0;
+}
+.c
+{
+    color: var(--blue);
+}
+
+
+    
+@media (max-width:1070px) and (min-width:992px) 
+{
+    .width1
+{
+    width: 90px;
+    margin: 16px 0;
+}
+
+}
+
